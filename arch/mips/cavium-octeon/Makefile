@@ -9,7 +9,7 @@
 # Copyright (C) 2005-2009 Cavium Networks
 #
 
-ccflags-y += -Wno-misleading-indentation
+ccflags-y += -Wno-error
 
 obj-y := setup.o serial.o octeon-platform.o octeon-irq.o csrc-octeon.o \
 	 octeon-hw-status.o octeon_info.o cavium.o
